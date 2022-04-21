@@ -41,7 +41,7 @@ Once I was happy with my progress on the Linktree clone, I moved onto a calendar
 <p>
 
 <p>
-Although this project is set up to map stored data across each date of the calendar, I moved on from this as I was spending most of my time writing and troubleshooting javascript rather than studying vue. This is a project I plan to come back to and expand upon, adding a daily tasks column that renders when a cell on the monthly calendar is clicked, having styled tools to display different data formats on the monthly calendar, and the usual CRUD functionalities of a data managment tool.
+Although this project is set up to map stored data across each date of the calendar and render different months at the call of a function, I moved on from this as I was spending most of my time writing and troubleshooting javascript rather than studying vue. This is a project I plan to come back to and expand upon, adding a daily tasks column that renders when a cell on the monthly calendar is clicked, having styled tools to display different data formats on the monthly calendar, and the usual CRUD functionalities of a data managment tool.
 </p>
 
 ---
