@@ -1,0 +1,49 @@
+.link-logo, .link-toolbar {
+    position: absolute;
+    color: var(--clr-blue1);
+}
+
+.link-logo {
+    left: calc( var(--link-height)*0.25 );
+    top: 50%;
+}
+
+.link-toolbar {
+    right: calc( var(--w-padding)*0.25 );
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    gap: var(--dis-gap);
+    padding: calc( var(--w-padding)*0.75 ) var(--w-padding);
+    z-index: 2;
+}
+
+.confirm-delete {
+    position: absolute;
+    right: 0;
+    background: var(--clr-white2);
+    border-radius: calc( var(--link-height)*0.2 );
+    padding: calc( var(--w-padding)*0.2 ) var(--w-padding);
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr;
+    align-items: center;
+    gap: var(--dis-gap);
+    transform: translateX(125%);
+    transition-duration: 0.5s;
+}
+
+.confirm-delete[showDeleteConfirm="true"] {
+    transform: translateX(0%);
+}
+
+.fa-check { color: rgb(0, 150, 0) }
+.fa-xmark { color: rgb(150, 0, 0) }
+
+.link-toolbar {
+    opacity: 0;
+    transition-duration: 0.25s;
+}
+
+.link-toolbar[isEditMode="true"] {
+    opacity: 1;
+}

@@ -1,0 +1,28 @@
+.btn {
+    width: var(--btn-size);
+    height: var(--btn-size);
+    border: none;
+    background: transparent;
+}
+
+.btn::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-anim {
+    transition-duration: 0.25s;
+    pointer-events: auto;
+}
+
+.btn-anim:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+}
+
+.btn-anim:hover .link {
+    pointer-events: none;
+}
+

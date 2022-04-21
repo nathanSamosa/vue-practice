@@ -1,0 +1,16 @@
+h3 {
+    margin: var(--f-lineheight) 0; 
+}
+
+#garden {
+    position: relative;
+    width: 100%;
+    max-width: var(--w-outer);
+}
+
+.edit-btn {
+    position: absolute;
+    top: var(--dis-gap);
+    right: var(--dis-gap);
+    color: var(--clr-white1)
+}

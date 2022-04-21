@@ -1,0 +1,59 @@
+:root {
+    --clr-white3: rgb(255, 255, 255);
+    --clr-white2: rgb(225, 225, 225);
+    --clr-white1: rgb(200, 200, 200);
+    --clr-blue2: #AFD7E6;
+    --clr-blue1: #2F5766;
+    --clr-yellow: #E9A177;
+
+    --ff-primary: "Roboto", Arial, sans-serif;
+    --f-lineheight: 1.6rem;
+
+    --w-outer: 1100px;
+    --w-inner: 600px;
+    --w-min: 350px;
+    --w-padding: 20px;
+
+    --dis-gap: 20px;
+
+    --link-height: 50px;
+
+    --btn-size: 25px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--ff-primary);
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    position: relative;
+    line-height: var(--f-lineheight);
+    background: var(--clr-white3);
+}
+
+#app, .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--dis-gap);
+}
+
+#app {
+    min-height: 100vh;
+    min-width: var(--w-min);
+    text-align: center;
+    padding: var(--w-padding);
+}
+
+.container {
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+}
