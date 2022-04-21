@@ -7,7 +7,7 @@ After finishing an intensive 6 month full-stack course that used React for the f
 ---
 
 <p>
-After creating my first Hello World, counter and responsive webpage I followed a guide on building a Todo list, utilising a store to call actions and mutations on    global state. Here I also learned about conditional rendering and using axios to fetch data from an API, and in the future, a server.
+After creating my first Hello World, counter and responsive webpage I followed a guide on building a [Todo list]("/todo"), utilising a store to call actions and mutations on    global state. Here I also learned about conditional rendering and using axios to fetch data from an API, and in the future, a server.
 </p>
 
 ---
