@@ -1,7 +1,7 @@
 <h1>Vue practice</h1>
 
 <p>
-After finishing an intensive 6 month full-stack course that used React for the front-end, I have spent the last two weeks studying Vue and its differences from React.
+After finishing an intensive 6 month full-stack course that used React for the front-end, I have spent some time studying Vue and its differences from React.
 </p>
 
 ---
