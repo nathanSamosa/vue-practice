@@ -4,6 +4,8 @@
 After finishing an intensive 6 month full-stack course that used React for the front-end, I have spent some time studying Vue and its differences from React.
 </p>
 
+![Linktree demo](/linktree/public/linktree-demo.gif)
+
 ---
 
 <h3>Todo list</h3>
